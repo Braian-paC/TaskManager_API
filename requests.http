@@ -1,4 +1,4 @@
-### Criar Task
+### Create Task 01
 POST http://127.0.0.1:8000/tasks
 Content-Type: application/json
 
@@ -8,5 +8,15 @@ Content-Type: application/json
     "checked": false
 }
 
-### Listar Task
+### Create Task 02
+POST http://127.0.0.1:8000/tasks
+Content-Type: application/json
+
+{
+    "id": 2,
+    "name": "Análise",
+    "checked": false
+}
+
+### List Tasks
 GET http://127.0.0.1:8000/tasks
