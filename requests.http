@@ -14,7 +14,7 @@ Content-Type: application/json
 
 {
     "id": 2,
-    "name": "Análise",
+    "name": "Analise",
     "checked": false
 }
 
