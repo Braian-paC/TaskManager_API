@@ -1,10 +1,32 @@
 [
     {
         "id": 1,
-        "name": "Planning"
+        "name": "Planning and Analysis",
+        "description": "Nothing Yet"
     },
     {
         "id": 2,
-        "name": "Analysis"
+        "name": "Design and Architecture",
+        "description": "Nothing Yet"
+    },
+    {
+        "id": 3,
+        "name": "Development",
+        "description": "Nothing Yet"
+    },
+    {
+        "id": 4,
+        "name": "Tests",
+        "description": "Nothing Yet"
+    },
+    {
+        "id": 5,
+        "name": "Implantation",
+        "description": "Nothing Yet"
+    },
+    {
+        "id": 6,
+        "name": "Maintenance",
+        "description": "Nothing Yet"
     }
 ]

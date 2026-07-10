@@ -1,19 +1,11 @@
-### Create Task 01
+### Create Task
 POST http://127.0.0.1:8000/tasks
 Content-Type: application/json
 
 {
-    "id": 1,
-    "name": "Planejamento"
-}
-
-### Create Task 02
-POST http://127.0.0.1:8000/tasks
-Content-Type: application/json
-
-{
-    "id": 2,
-    "name": "Analise"
+    "id": 6,
+    "name": "Maintenance",
+    "description": "Nothing Yet"
 }
 
 ### List Tasks
@@ -24,6 +16,9 @@ PUT http://127.0.0.1:8000/tasks/2
 Content-Type: application/json
 
 {
-    "id": 2,
-    "name": "Analysis"
+    "id": 1,
+    "name": "Planning"
 }
+
+### Delete Tasks
+DELETE http://127.0.0.1:8000/tasks/7

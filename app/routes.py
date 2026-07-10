@@ -27,6 +27,14 @@ def update_task(id: int, task: Task):
         
     return {"error": "Task not found"}
 
-#@router.delete("/tasks", response_model=Task)
-#def delete_task():
-#    pass
+@router.delete("/tasks/{id}")
+def delete_task(id: int):
+    data = read_data()
+
+    for task in data:
+        if task["id"] == id:
+            data.remove(task)
+            save_data(data)
+            return task
+    
+    return {"message": "Task not found"}
