@@ -14,3 +14,19 @@ def create_task(taskModel: Task): # Create the model Task
 @router.get("/tasks", response_model=list[Task]) # List the Tasks
 def get_task():
     return read_data()
+
+@router.put("/tasks/{id}", response_model=Task) # Update task stats
+def update_task(id: int, task: Task):
+    data = read_data()
+
+    for index, item in enumerate(data):
+        if item["id"] == id:
+            data[index] = task.model_dump()
+            save_data(data)
+            return task
+        
+    return {"error": "Task not found"}
+
+#@router.delete("/tasks", response_model=Task)
+#def delete_task():
+#    pass

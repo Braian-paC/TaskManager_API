@@ -4,8 +4,7 @@ Content-Type: application/json
 
 {
     "id": 1,
-    "name": "Planejamento",
-    "checked": false
+    "name": "Planejamento"
 }
 
 ### Create Task 02
@@ -14,9 +13,17 @@ Content-Type: application/json
 
 {
     "id": 2,
-    "name": "Analise",
-    "checked": false
+    "name": "Analise"
 }
 
 ### List Tasks
 GET http://127.0.0.1:8000/tasks
+
+### Update Tasks
+PUT http://127.0.0.1:8000/tasks/2
+Content-Type: application/json
+
+{
+    "id": 2,
+    "name": "Analysis"
+}
