@@ -9,6 +9,7 @@ def create_task(taskModel: Task): # Create the model Task
     data = read_data()
     data.append(taskModel.model_dump())
     save_data(data)
+    print(data)
     return taskModel
 
 @router.get("/tasks", response_model=list[Task]) # List the Tasks

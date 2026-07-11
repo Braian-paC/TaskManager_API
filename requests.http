@@ -3,9 +3,8 @@ POST http://127.0.0.1:8000/tasks
 Content-Type: application/json
 
 {
-    "id": 6,
     "name": "Maintenance",
-    "description": "Nothing Yet"
+    "description": "Nothing"
 }
 
 ### List Tasks
