@@ -3,7 +3,7 @@ POST http://127.0.0.1:8000/tasks
 Content-Type: application/json
 
 {
-    "name": "Maintenance",
+    "name": "Manutentionnne",
     "description": "Nothing"
 }
 
@@ -11,13 +11,14 @@ Content-Type: application/json
 GET http://127.0.0.1:8000/tasks
 
 ### Update Tasks
-PUT http://127.0.0.1:8000/tasks/2
+PUT http://127.0.0.1:8000/tasks/873
 Content-Type: application/json
 
 {
-    "id": 1,
-    "name": "Planning"
+    "id": 89,
+    "name": "Testes",
+    "description": "Testando"
 }
 
 ### Delete Tasks
-DELETE http://127.0.0.1:8000/tasks/50
+DELETE http://127.0.0.1:8000/tasks/87231
