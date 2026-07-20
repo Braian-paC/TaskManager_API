@@ -4,21 +4,21 @@ Content-Type: application/json
 
 {
     "name": "Manutentionnne",
-    "description": "Nothing"
+    "description": "nadaaa"
 }
 
 ### List Tasks
 GET http://127.0.0.1:8000/tasks
 
 ### Update Tasks
-PUT http://127.0.0.1:8000/tasks/873
+PUT http://127.0.0.1:8000/tasks/86
 Content-Type: application/json
 
 {
-    "id": 89,
-    "name": "Testes",
-    "description": "Testando"
+    "id": 892,
+    "name": "Tessst",
+    "description": "TTtttestando"
 }
 
 ### Delete Tasks
-DELETE http://127.0.0.1:8000/tasks/87231
+DELETE http://127.0.0.1:8000/tasks/892

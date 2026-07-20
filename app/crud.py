@@ -1,5 +1,5 @@
 from models import Task
-from database import read_data, save_data
+from funcs import read_data, save_data
 
 def create_task_func(taskModel: Task): # Create a task
     data = read_data()

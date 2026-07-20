@@ -1,6 +1,5 @@
 from fastapi import APIRouter
 from models import Task
-from database import read_data, save_data
 from crud import create_task_func, get_task_func, update_task_func, delete_task_func
 
 router = APIRouter()
