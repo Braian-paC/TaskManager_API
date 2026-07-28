@@ -1,24 +1,23 @@
 ### Create Task
-POST http://127.0.0.1:8000/tasks
+POST http://127.0.0.1:8000/tasks/
 Content-Type: application/json
 
 {
-    "name": "Manutentionnne",
-    "description": "nadaaa"
+    "name": "Design",
+    "description": "Etapa 03"
 }
 
 ### List Tasks
-GET http://127.0.0.1:8000/tasks
+GET http://127.0.0.1:8000/tasks/
 
 ### Update Tasks
-PUT http://127.0.0.1:8000/tasks/86
+PUT http://127.0.0.1:8000/tasks/680
 Content-Type: application/json
 
 {
-    "id": 892,
-    "name": "Tessst",
-    "description": "TTtttestando"
+    "name": "Análise",
+    "description": "Etapa 02"
 }
 
 ### Delete Tasks
-DELETE http://127.0.0.1:8000/tasks/892
+DELETE http://127.0.0.1:8000/tasks/606

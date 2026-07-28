@@ -1,4 +1,9 @@
 import json
+import sqlite3
+
+def get_db():
+    conn = sqlite3.connect("database/TaskManager_DB.db")
+    return conn
 
 file_json = "database.json"
 
