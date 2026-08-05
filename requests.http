@@ -4,20 +4,20 @@ Content-Type: application/json
 
 {
     "name": "Design",
-    "description": "Etapa 03"
+    "description": "Etapa 04"
 }
 
 ### List Tasks
 GET http://127.0.0.1:8000/tasks/
 
 ### Update Tasks
-PUT http://127.0.0.1:8000/tasks/680
+PUT http://127.0.0.1:8000/tasks/205
 Content-Type: application/json
 
 {
-    "name": "Análise",
-    "description": "Etapa 02"
+    "name": "Codificação",
+    "description": "Etapa 04"
 }
 
 ### Delete Tasks
-DELETE http://127.0.0.1:8000/tasks/606
+DELETE http://127.0.0.1:8000/tasks/230

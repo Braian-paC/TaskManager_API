@@ -4,7 +4,4 @@
 <div align=center>
 <img src="https://img.shields.io/badge/Python-blue?logo=python&logoColor=blue&style=social"/>
 <img src="https://img.shields.io/badge/FastAPI-blue?logo=FastAPI&logoColor=blue&style=social"/>
-<!--
-<img src="https://img.shields.io/badge/SQLite-blue?logo=SQLite&logoColor=blue&style=social"/>
--->
 </div>
